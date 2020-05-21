@@ -2,22 +2,33 @@ body {
     background-color: aqua;
 }
 
-#navbar_1 {
-    color: #008000;
+nav ul {
+    background-color: #f9f9f9;
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+}
+nav li {
+    display: inline;
+    background-color: yellow;
+    font-size: 20 px;
+    padding: 20px;
+    margin: 10px;
+}
+nav li a {
+    color: red;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button_wrap img {
+    
+    float: left;
+    width: 20%;
+    height: 150px;
 }
 
-#food_1 {
-    width: 40px;
-    height: 40px;
-}
-
-.wrapper .button_wrap #hungry_btn #food_img {
-    width: 200px;
-    height: 200px;
-}
-
-.wrapper .button_wrap #thirsty_btn #water_img {
-    width: 200px;
-    height: 200px;
+.btn {
+    float: left;
+    position: absolute;
 }
 
