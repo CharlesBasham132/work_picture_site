@@ -10,3 +10,14 @@ body {
     width: 40px;
     height: 40px;
 }
+
+.wrapper .button_wrap #hungry_btn #food_img {
+    width: 200px;
+    height: 200px;
+}
+
+.wrapper .button_wrap #thirsty_btn #water_img {
+    width: 200px;
+    height: 200px;
+}
+
