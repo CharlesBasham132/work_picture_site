@@ -1,5 +1,7 @@
 body {
     background-color: aqua;
+    font: normal 16px Arial, Helvetica, Sans-serif;
+    line-height: 1.4em;
 }
 
 nav ul {
@@ -18,8 +20,23 @@ nav li {
 nav li a {
     color: red;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.text_box_1 {
+    background-color: #f9f9f9;
+    color: #800080;
+    border: 5px #C0C0C0 solid;
+    padding: 10px;
+}
+
+
+
 .button_wrap img {
     
     float: left;
