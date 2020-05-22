@@ -3,6 +3,18 @@ body {
     font: normal 16px Arial, Helvetica, Sans-serif;
     line-height: 1.4em;
 }
+a {
+    color: #000000;
+    text-decoration: none;
+}
+a:hover{
+        background-color: #f9f9f9;
+        border-radius: 15px;
+        
+}
+a:active{
+    background-color: #ffff00;
+}
 
 nav ul {
     background-color: #f9f9f9;
@@ -17,15 +29,16 @@ nav li {
     padding: 20px;
     margin: 10px;
 }
-nav li a {
-    color: red;
-    text-decoration: none;
-    
-}
 
 .wrapper {
     width: 80%;
     margin: auto;
+}
+#contact_form {
+    padding:10px;   
+}
+.form_group {
+    padding-bottom: 4px;
 }
 
 .text_box_1 {
@@ -33,6 +46,10 @@ nav li a {
     color: #800080;
     border: 5px #C0C0C0 solid;
     padding: 10px;
+    margin: 20px 0px;
+}
+.text_box_1 a:active{
+    background-color: #f9f9f9;
 }
 
 
