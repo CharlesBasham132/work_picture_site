@@ -35,7 +35,14 @@ nav li {
     margin: auto;
 }
 #contact_form {
-    padding:10px;   
+    padding:10px;
+    background-color: #C0C0C0;
+    width: 300px;
+    float: left;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    /* find way to remove text from box when u select it */
 }
 .form_group {
     padding-bottom: 4px;
@@ -50,6 +57,18 @@ nav li {
 }
 .text_box_1 a:active{
     background-color: #f9f9f9;
+}
+.text_box_2 {
+    background-color: #f9f9f9;
+    color: #800080;
+    border: 5px #C0C0C0 solid;
+    padding: 10px;
+    margin: 20px 0px;
+    float: right;
+    width: 300px;
+}
+.text_box_2 h1 {
+    /*change spacing + link colors*/
 }
 
 
