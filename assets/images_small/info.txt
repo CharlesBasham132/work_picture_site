@@ -1,0 +1,1 @@
+All '_rs' images have been resized/(and cropped when applicable) down to 400px width

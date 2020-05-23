@@ -1,0 +1,2 @@
+These are the original images in their original (too large) sizes.
+Use images from the assets/images_small folder.
