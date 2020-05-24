@@ -20,6 +20,7 @@
         <h1>This is the Contact page</h1>
         <form id="contact_form">
             <h1>Contact Us Form</h1>
+            <div class="error_message"></div>
             <div class="form_group">
                 <label for="fname" >First Name:</label>
                 <input type="text" id="fname" name="fname">
@@ -44,14 +45,16 @@
                 <label for="submit_button" ></label>
                 <input type="submit" id="submit_button" name="submit_button">
             </div>
+            <div id="user_confirm"></div>
             </form> <!--form end-->
-        
+            
+            
 
         <div class="text_box_2">
             <h1>Or Contact us via these:</h1>
             <ul id="contact_list">
                 <li>
-                    <div>Email us at: <a href="mailto: 123@mail_example.com">speak_easy_mail@example.com</a></div>
+                    <div>Email us at: <a href="mailto:123@mail_example.com">speak_easy_mail@example.com</a></div>
                 </li>
                 <li>
                     <div>Call us on: <a href="tel:+44-123123123">07123 123123</a></div>
@@ -59,7 +62,7 @@
             </ul>
 
         </div>
-        <div id="c_spacing" style="margin: 2000px 0px;"></div> <!--this is to add space at the bottom-->
+        <div id="c_spacing" style="margin: 500px 0px;"></div> <!--this is to add space at the bottom-->
     </div> <!--wrap end-->
 
     <script src="script.js"></script>

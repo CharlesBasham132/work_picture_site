@@ -67,9 +67,9 @@ nav li {
     float: right;
     width: 300px;
 }
-.text_box_2 h1 {
-    /*change spacing + link colors*/
-}
+/* .text_box_2 h1 {
+    change spacing + link colors
+}  */
 
 
 
@@ -78,9 +78,22 @@ nav li {
     float: left;
     width: 20%;
     height: 150px;
+    /* position:  */
+
 }
 
 .btn {
     position: absolute;
 }
 
+#user_confirm {
+    color: #000000;
+    background-color: #00df00;
+    border-radius: 15px;
+}
+
+.error_message {
+    color: #ff0000;
+    background-color: #000000;
+    font-size: 20px;
+}
