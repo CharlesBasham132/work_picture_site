@@ -48,10 +48,14 @@ nav a:hover {
 
 .text_box_1 {
     background-color: #f9f9f9;
-    color: #800080;
-    border: 5px #C0C0C0 solid;
+    color: #000;
+    border: 5px #000 solid;
     padding: 10px;
     margin: 20px 0px;
+    border-radius: 15px;
+}
+.text_box_1 a {
+    color: #800080;
 }
 .text_box_1 a:active{
     color: #000000;

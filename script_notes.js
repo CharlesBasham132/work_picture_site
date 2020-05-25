@@ -33,11 +33,7 @@ email_box.remove();                                         //removes selected e
 // audio script:
 
 
-function play_the_yes(){
-    const the_yes_button = document.querySelector("yes_button");
-    the_yes_button.addEventListener('click', yes_clicked);
-    document.querySelector('')
 
-}
+
 
     
