@@ -30,32 +30,14 @@ const email_box = document.querySelector('.text_box_2');    //assign name and se
 email_box.remove();                                         //removes selected element
 */
 
+// audio script:
 
-//Form Script:
-const contact_form = document.querySelector('#contact_form');
-const first_name = document.querySelector('#fname');
-const last_name = document.querySelector('#lname');
-const email = document.querySelector('#email');
-const user_message = document.querySelector('#message_1');
 
-const error_message = document.querySelector('.error_message');
-const user_confirm = document.querySelector('#user_confirm');
+function play_the_yes(){
+    const the_yes_button = document.querySelector("yes_button");
+    the_yes_button.addEventListener('click', yes_clicked);
+    document.querySelector('')
 
-contact_form.addEventListener('submit', with_submit);
-
-function with_submit(e) {
-    e.preventDefault();
- 
-    if(first_name.value === '' || last_name.value === '' || email.value === '' || user_message.value ==='') { 
-        error_message.innerHTML = 'ERROR: Please Enter All Fields';
-        setTimeout(() => error_message.remove(), 2000);
-    }
-    else {user_confirm.innerHTML = 'Form Submitted, Thank you ' + (`${first_name.value}`);
-    first_name.value = '';
-    last_name.value = '';
-    email.value = '';
-    user_message.value = '';
-    }
 }
-        
 
+    

@@ -19,58 +19,116 @@
     <div class="wrapper">
         <div class="button_wrap_">
             <div id="hungry_btn">
-                <button class="btn" type="button">Hungry</button>
-                <img id="food_img" src="assets/images_small/food_rs.jpg" alt="Hungry image">
+                <button class="btn" type="button" onclick="play_hunger()">Hungry</button>
+                <img id="food_img" src="assets/images_small/food_rs.jpg" onclick="hungry_audio.play()" alt="Hungry image">
             </div> <!--hungry btn end-->
 
             <div id="thirsty_btn">
-                <button class="btn" type="button">Thirsty</button>
+                <button class="btn" type="button" onclick="play_thirsty()">Thirsty</button>
                 <img id="water_img" src="assets/images_small/water_rs.jpg" alt="Thirsty image">
             </div> <!-- thirsty btn end-->
             
             <div id="hot_btn">
-                <button class="btn"  type="button">Hot</button>
+                <button class="btn"  type="button" onclick="play_hot()">Hot</button>
                 <img id="hot_img" src="assets/images_small/fire_rs.jpg" alt="Hot image">
             </div> <!--hot btn end-->
 
             <div id="cold_btn">
-                <button class="btn"  type="button">Cold</button>
+                <button class="btn"  type="button" onclick="play_cold()">Cold</button>
                 <img id="cold_img" src="assets/images_small/snowflake_rs.jpg" alt="Cold image">
             </div> <!--cold btn end-->
             
             <div id="hurt_btn">
-                <button class="btn"  type="button">Hurt</button>
+                <button class="btn"  type="button" onclick="play_hurt()">Hurt</button>
                 <img id="hurt_img" src="assets/images_small/pain_rs.jpg" alt="In pain image">
             </div> <!--hurt btn end-->
             
             <div id="toilet_btn">
-                <button class="btn"  type="button">Toilet</button>
+                <button class="btn"  type="button" onclick="play_toilet()">Toilet</button>
                 <img id="toilet_img" src="assets/images_small/toilet_rs.jpg" alt="Toilet image">
             </div> <!--toilet btn end-->
 
             <div id="television_btn">
-                <button class="btn"  type="button">TV</button>
+                <button class="btn"  type="button" onclick="play_television()">TV</button>
                 <img id="television_img" src="assets/images_small/television_rs.jpg" alt="Television image">
             </div> <!--tv btn end-->
             
             <div id="yes_btn">
-                <button class="btn" type="button">Yes</button>
+                <button class="btn" type="button" onclick="play_yes()">Yes</button>
                 <img id="yes_img" src="assets/images_small/yes_rs.jpg" alt="Yes image">
             </div> <!--yes btn end-->
 
             <div id="no_btn">
-                <button class="btn" type="button">No</button>
+                <button class="btn" type="button" onclick="play_no()">No</button>
                 <img id="no_img" src="assets/images_small/no_rs.jpg" alt="No image">
             </div> <!--no btn end-->
 
             <div id="bell_btn">
-                <button class="btn" type="button">Bell</button>
+                <button class="btn" type="button" onclick="play_bell()">Bell</button>
                 <img id="bell_img" src="assets/images_small/bell_ring_rs.jpg" alt="Bell image">
             </div> <!--bell btn end-->
             
         </div> <!--button wrap end-->
     </div> <!--wrap end-->
+    <div class="audio">
+        <audio src="assets/audio/hungry.mp3" id="hungry_audio"></audio>
+        <audio src="assets/audio/thirsty.mp3" id="thirsty_audio"></audio>
+        <audio src="assets/audio/hot.mp3" id="hot_audio"></audio>
+        <audio src="assets/audio/cold.mp3" id="cold_audio"></audio>
+        <audio src="assets/audio/hurt.mp3" id="hurt_audio"></audio>
+        <audio src="assets/audio/toilet.mp3" id="toilet_audio"></audio>
+        <audio src="assets/audio/television.mp3" id="television_audio"></audio>
+        <audio src="assets/audio/yes.mp3" id="yes_audio"></audio>
+        <audio src="assets/audio/no.mp3" id="no_audio"></audio>
+        <audio src="assets/audio/bell.mp3" id="bell_audio"></audio>
 
-    <script src="script.js"></script>
+    </div>
+
+    <script>
+        function play_hunger() {
+            var hunger_audio = document.getElementById("hungry_audio")
+            hungry_audio.play();
+        }
+        function play_thirsty() {
+            var thirsty_audio = document.getElementById("thirsty_audio")
+            thirsty_audio.play();
+        }
+        function play_hot() {
+            var hot_audio = document.getElementById("hot_audio")
+            hot_audio.play();
+        }
+        function play_cold() {
+            var cold_audio = document.getElementById("cold_audio")
+            cold_audio.play();
+        }
+        function play_hurt() {
+            var hurt_audio = document.getElementById("hurt_audio")
+            hurt_audio.play();
+        }
+        function play_toilet() {
+            var toilet_audio = document.getElementById("toilet_audio")
+            toilet_audio.play();
+        }
+        function play_television() {
+            var television_audio = document.getElementById("television_audio")
+            television_audio.play();
+        }
+        function play_yes() {
+            var yes_audio = document.getElementById("yes_audio")
+            yes_audio.play();
+        }
+        function play_no() {
+            var no_audio = document.getElementById("no_audio")
+            no_audio.play();
+        }
+        function play_bell() {
+            var bell_audio = document.getElementById("bell_audio")
+            bell_audio.play();
+        }
+
+        
+        
+    </script>
+    <!-- <script src="script.js"></script> -->
 </body>
 </html>

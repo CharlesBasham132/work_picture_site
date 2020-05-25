@@ -3,15 +3,6 @@ body {
     font: normal 16px Arial, Helvetica, Sans-serif;
     line-height: 1.4em;
 }
-a {
-    color: #000000;
-    text-decoration: none;
-}
-a:hover{
-        background-color: #f9f9f9;
-        border-radius: 15px;
-        
-}
 a:active{
     background-color: #ffff00;
 }
@@ -29,7 +20,14 @@ nav li {
     padding: 20px;
     margin: 10px;
 }
-
+nav a {
+    color: #000000;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #f9f9f9;
+        border-radius: 15px;
+}
 .wrapper {
     width: 80%;
     margin: auto;
@@ -56,20 +54,28 @@ nav li {
     margin: 20px 0px;
 }
 .text_box_1 a:active{
+    color: #000000;
     background-color: #f9f9f9;
 }
 .text_box_2 {
-    background-color: #f9f9f9;
-    color: #800080;
-    border: 5px #C0C0C0 solid;
+    background-color: #c0c0c0;
+    color: #000000;
+    border: 5px #000 solid;
     padding: 10px;
     margin: 20px 0px;
     float: right;
     width: 300px;
+    border-radius: 10px;
 }
-/* .text_box_2 h1 {
-    change spacing + link colors
-}  */
+.text_box_2 a {
+    color: #800080;
+}
+.text_box_2 h1 {
+   line-height:34px; 
+}
+.text_box_2 ul {
+    line-height: px;
+}
 
 
 
