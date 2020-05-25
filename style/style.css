@@ -96,6 +96,24 @@ nav a:hover {
     position: absolute;
 }
 
+.t_board_letters div {
+    font-size: 60px;
+    line-height: 80px;
+    display: inline-block;
+}
+.y_t_board {
+    font-size: 60px;
+    display: inline;
+    color: #00df00;
+    
+}
+.n_t_board {
+    font-size: 60px;
+    display: inline;
+    color: #ff0000;
+    background-color: #808080;
+    margin-top: 10px;
+}
 #user_confirm {
     color: #000000;
     background-color: #00df00;
