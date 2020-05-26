@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="shortcut icon" href="assets/images/draft_1_flav.ico">
+    <link rel="shortcut icon" href="assets/images/flav2.ico">
     <title>Talking Board</title>
 </head>
 <body>
@@ -49,8 +49,8 @@
                 <div id="letter_z">Z</div>
             </div> <!-- t_board_letters end -->
                 
-            <p class="y_t_board">YES </p>
-            <p class="n_t_board">NO</p>
+            <p class="y_t_board" onclick="play_yes()">YES </p>
+            <p class="n_t_board" onclick="play_no()">NO</p>
         </div> <!--text box one end-->
 
 
@@ -58,7 +58,19 @@
         
 
     </div> <!--wrap end-->
-    
-    <script src="script.js"></script>
+
+    <audio src="assets/audio/yes.mp3" id="yes_audio"></audio>
+        <audio src="assets/audio/no.mp3" id="no_audio"></audio>
+
+    <script>
+        function play_yes() {
+            var yes_audio = document.getElementById("yes_audio")
+            yes_audio.play();
+        }
+        function play_no() {
+            var no_audio = document.getElementById("no_audio")
+            no_audio.play();
+        } 
+    </script>
 </body>
 </html>
